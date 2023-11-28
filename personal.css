@@ -1,0 +1,28 @@
+html {
+		background-image: url("matrix.jpg");
+	}
+
+@keyframes example {
+  from {background-color: rgba(0,0,0,0.67);}
+  to {background-color: black;}
+}
+
+body {
+	background-color: rgba(0,0,0,0.67);
+	animation-name: example;
+	animation-duration: 5s;
+}
+
+p, li, h1, h2, td {
+	color: purple;
+	font-family: 'Copperplate', fantasy;
+	font-size: 30px;
+	outline-color: white
+	
+}
+p {
+	width: 400px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 50px;
+}
