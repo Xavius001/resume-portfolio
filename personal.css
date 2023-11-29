@@ -17,7 +17,7 @@ p, li, h1, h2, td {
 	color: purple;
 	font-family: 'Copperplate', fantasy;
 	font-size: 30px;
-	outline-color: white
+	text-shadow: 1px 1px 2px black;
 	
 }
 p {
